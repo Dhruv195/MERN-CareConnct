@@ -1,0 +1,24 @@
+
+.mb-4{
+      margin-left: 100px;
+}
+
+.head{
+      padding-top: '40px';
+      text-align: 'center';
+}
+.cal{
+     
+      margin-top: "100px";
+}
+
+.red-text{
+      color: green;
+}
+
+@media only screen and (max-width: 800px) {
+      .Bookappoint {
+        display: none !important;
+        margin-top: 20px;  
+      }
+    }

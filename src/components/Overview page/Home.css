@@ -1,0 +1,267 @@
+body {
+  width: 100%;
+  position: relative;
+}
+
+.doctorText {
+  margin-top: 80px;
+  margin-left: 100px;
+  font-weight: 700;
+}
+.doctorText p {
+  color: gray;
+}
+.doctorHeading {
+  /* background: gray 40%;
+  background-image: linear-gradient(to left, #1b1b1b 33%, #ffffffd5 33%); */
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.doctorImg img {
+  width: 90%;
+  height: 90%;
+  padding-top: 80px;
+  padding-left: 100px;
+}
+.doctorText .button,
+.doctorPortal .dentalCare .button,
+.doctorPortal .makeAppointment .button {
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  background-image: linear-gradient(to right, #19d3ae, #0ddfff);
+  color: white;
+  font-weight: 700;
+  border-radius: 2px;
+}
+
+.doctorPortal .ourServices {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 60px;
+  width: 100%;
+}
+.doctorPortal .ourServices > div > p {
+  font-size: 20px;
+  font-weight: 900;
+  background: linear-gradient(#19d3ae, #0ddfff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.doctorPortal .ourServices > div > h2 {
+  font-weight: 700;
+}
+.doctorPortal .servicesDetails {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.doctorPortal .servicesDetails li {
+  text-align: left;
+  color: gray;
+}
+
+.doctorPortal .servicesDetails > * {
+  width: 550px;
+  padding: 0px 20px;
+  padding-top: 100px;
+}
+
+.testimonial {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  text-align: center;
+  margin-top: 60px;
+  width: 100%;
+}
+.testimonial .testimonialDetails {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.testimonial .testimonialDetails > * {
+  margin: 30px;
+}
+.testimonial h4,
+.ourBlog h4,
+.ourDoctors h4,
+.contactUs h4 {
+  margin-bottom: 30px;
+  background: linear-gradient(#19d3ae, #0ddfff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+.testimonial .testimonialDetails img,
+.ourBlog .ourBlogDetails img {
+  height: 50px;
+  margin-right: 20px;
+  margin-left: 10px;
+}
+.testimonial .patientinfo > p:first-child,
+.ourBlog .doctorinfo > p:first-child,
+.ourDoctors .doctorsInfo > p:first-child {
+  background: linear-gradient(#19d3ae, #0ddfff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  margin-bottom: -5px;
+}
+
+.ourBlog,
+.ourDoctors {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.ourBlog .ourBlogDetails,
+.ourDoctors .ourDoctorsDetails {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.ourBlog .ourBlogDetails > *,
+.ourDoctors .ourDoctorsDetails > * {
+  margin: 30px;
+}
+.ourBlog h4,
+.ourBlog h1,
+.ourDoctors h4,
+.contactUs h1,
+.contactUs h4 {
+  text-align: center;
+}
+.ourBlog .ourBlogDetails > *:first-child {
+  background: linear-gradient(to right, #19d3ae, #0ddfff);
+  color: white;
+}
+.ourDoctors .doctorsInfo {
+  text-align: center;
+  margin-top: 5px;
+}
+.contactUs {
+  /* background-image: url(../../images/mask\group\4jpg); */
+  background-color: #4fab34;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: white;
+  padding: 60px 0;
+  background-size: 100% 100%;
+}
+.contactUs .contactUsDetails {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.contactUs .contactUsDetails input {
+  width: 800px;
+}
+.contactUs .contactUsDetails input:first-child,
+.contactUs .contactUsDetails input:nth-child(3) {
+  padding: 20px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  margin-top: 10px;
+}
+.contactUs .contactUsDetails input:nth-child(5) {
+  padding: 20px;
+  padding-bottom: 150px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  margin-top: 10px;
+}
+.contactUs .contactUsDetails .submitBtn {
+  background: linear-gradient(to right, #19d3ae, #0ddfff);
+  margin-top: 10px;
+  font-weight: 700;
+  color: white;
+  padding: 10px 50px;
+  border-radius: 4px;
+  outline: none;
+}
+
+@media only screen and (max-width: 1200px) {
+  .doctorPortal .ourServices > div {
+    width: 100%;
+  }
+
+  .doctorPortal .testimonial h4,
+  .doctorPortal .testimonial h1 {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .doctorText h1 {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .doctorText p {
+    font-size: 14px;
+  }
+
+  .doctorImg img {
+    width: 90%;
+    height: 80%;
+  }
+
+  .contactUs .contactUsDetails input {
+    width: 600px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .doctorText h1 {
+    font-size: 25px;
+  }
+  .doctorText p {
+    font-size: 14px;
+  }
+  .doctorImg img {
+    height: 310px;
+  }
+}
+
+@media only screen and (max-width: 771px) {
+  .doctorText {
+    margin: 0 20px;
+  }
+  .doctorImg img {
+    padding-top: 10px;
+    padding-left: 40px;
+    margin-left: 40px;
+    height: 250px;
+    width: 400px;
+  }
+
+  .contactUs h1 {
+    font-size: 30px;
+  }
+  .contactUs .contactUsDetails input {
+    width: 300px;
+  }
+  .contactUs .contactUsDetails input:first-child,
+  .contactUs .contactUsDetails input:nth-child(3) {
+    padding: 10px;
+  }
+  .contactUs .contactUsDetails input:nth-child(5) {
+    padding: 10px;
+    padding-bottom: 150px;
+  }
+}
+
+@media only screen and (max-width: 411px) {
+  .doctorImg img {
+    padding-left: 20px;
+    height: 150px;
+    width: 250px;
+    margin-top: 40px;
+  }
+}
